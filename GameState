@@ -1,0 +1,17 @@
+/**
+ * @author Jaimee Bennett
+ * Student ID: 5048095
+ * Project: Tick-Tac-Toe
+ * Date:8/1/22
+ * Update: n/a
+ * Version: 1
+ */
+ 
+	/**
+	 * Enumeration for the state of game
+	 */
+   
+public enum GameState {
+	Nought_won, Cross_won, Draw, Playing
+	
+}
