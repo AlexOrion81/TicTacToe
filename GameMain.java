@@ -1,8 +1,18 @@
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
 
+/**
+ * @author Jaimee Bennett
+ * Student ID: 5048095
+ * Project: Tick-Tac-Toe
+ * Date:18/12/21
+ * Update:8/1/22
+ * Version: 1
+ *
+ */
 
 public class GameMain extends JPanel implements MouseListener{
 	//Constants for game 
@@ -211,3 +221,6 @@ public class GameMain extends JPanel implements MouseListener{
 	}
 
 }
+
+
+
