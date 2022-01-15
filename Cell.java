@@ -1,7 +1,7 @@
 	import java.awt.BasicStroke;
-	import java.awt.Color;
-	import java.awt.Graphics;
-	import java.awt.Graphics2D;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 
 
 	/**
@@ -9,9 +9,8 @@
 	 * Student ID: 5048095
 	 * Project: Tick-Tac-Toe
 	 * Date:18/12/21
-	 * Update:8/1/22
-	 * Version: 1
-	 *
+	 * Update:15/1/22
+	 * Version: 2
 	 */
 public class Cell {
 
@@ -19,6 +18,7 @@ public class Cell {
 		Player content;
 		//row and column of this cell
 		int row, col;
+		private Object player;
 		
 		/** Constructor to initialise this cell with the specified row and col */
 		public Cell(int row, int col) {
@@ -27,8 +27,8 @@ public class Cell {
 
 			
 			
-			//TODO: call the method that sets the cell content to EMPTY
-			 
+		
+			clear();
 		}
 		
 
@@ -55,14 +55,18 @@ public class Cell {
 		
 		/** Set this cell's content to EMPTY */
 		public void clear() {
-			
+		//	Player player; //?
 			// TODO: Set the value of content to Empty (Remember this is an enum)
-
+			this.player.Empty //?
+		
+//			for (int i = 0; i < 3; i++) {
+//				for (int j = 0; j < 3; j++) {
+//				board[i][j].setText(""); // sets to empty string
 			
+	
 		}
 			
-	}
+	
 
 
 }
-
